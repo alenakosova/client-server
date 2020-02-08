@@ -1,7 +1,9 @@
-import com.ibm.disthub2.client.Message;
 import com.ibm.mq.jms.*;
 
-import javax.jms.*;
+import javax.jms.JMSException;
+import javax.jms.MessageListener;
+import javax.jms.Session;
+import javax.jms.TextMessage;
 
 public class MqStub {
 
